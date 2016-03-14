@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CA1412D1C964AE000E88417 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1412C1C964AE000E88417 /* main.m */; };
+		7CA141301C964AE000E88417 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1412F1C964AE000E88417 /* AppDelegate.m */; };
+		7CA141331C964AE000E88417 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA141321C964AE000E88417 /* ViewController.m */; };
+		7CA141381C964AE000E88417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA141371C964AE000E88417 /* Assets.xcassets */; };
+		7CA141461C964AE000E88417 /* FMGodTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA141451C964AE000E88417 /* FMGodTableViewTests.m */; };
+		7CA141511C964AE000E88417 /* FMGodTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA141501C964AE000E88417 /* FMGodTableViewUITests.m */; };
+		7CA141601C964B0D00E88417 /* FMGodTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1415F1C964B0D00E88417 /* FMGodTableView.m */; };
+		7CA141631C964B6100E88417 /* FMGodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA141621C964B6100E88417 /* FMGodTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CA141421C964AE000E88417 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CA141201C964ADF00E88417 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA141271C964AE000E88417;
+			remoteInfo = FMGodTableView;
+		};
+		7CA1414D1C964AE000E88417 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CA141201C964ADF00E88417 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA141271C964AE000E88417;
+			remoteInfo = FMGodTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CA141281C964AE000E88417 /* FMGodTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMGodTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA1412C1C964AE000E88417 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CA1412E1C964AE000E88417 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CA1412F1C964AE000E88417 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CA141311C964AE000E88417 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CA141321C964AE000E88417 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CA141371C964AE000E88417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CA1413C1C964AE000E88417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA141411C964AE000E88417 /* FMGodTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMGodTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA141451C964AE000E88417 /* FMGodTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMGodTableViewTests.m; sourceTree = "<group>"; };
+		7CA141471C964AE000E88417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA1414C1C964AE000E88417 /* FMGodTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMGodTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA141501C964AE000E88417 /* FMGodTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMGodTableViewUITests.m; sourceTree = "<group>"; };
+		7CA141521C964AE000E88417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA1415E1C964B0D00E88417 /* FMGodTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMGodTableView.h; sourceTree = "<group>"; };
+		7CA1415F1C964B0D00E88417 /* FMGodTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMGodTableView.m; sourceTree = "<group>"; };
+		7CA141611C964B6100E88417 /* FMGodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMGodTableViewCell.h; sourceTree = "<group>"; };
+		7CA141621C964B6100E88417 /* FMGodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMGodTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CA141251C964AE000E88417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA1413E1C964AE000E88417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA141491C964AE000E88417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CA1411F1C964ADF00E88417 = {
+			isa = PBXGroup;
+			children = (
+				7CA1412A1C964AE000E88417 /* FMGodTableView */,
+				7CA141441C964AE000E88417 /* FMGodTableViewTests */,
+				7CA1414F1C964AE000E88417 /* FMGodTableViewUITests */,
+				7CA141291C964AE000E88417 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CA141291C964AE000E88417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CA141281C964AE000E88417 /* FMGodTableView.app */,
+				7CA141411C964AE000E88417 /* FMGodTableViewTests.xctest */,
+				7CA1414C1C964AE000E88417 /* FMGodTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CA1412A1C964AE000E88417 /* FMGodTableView */ = {
+			isa = PBXGroup;
+			children = (
+				7CA1412E1C964AE000E88417 /* AppDelegate.h */,
+				7CA1412F1C964AE000E88417 /* AppDelegate.m */,
+				7CA141311C964AE000E88417 /* ViewController.h */,
+				7CA141321C964AE000E88417 /* ViewController.m */,
+				7CA141371C964AE000E88417 /* Assets.xcassets */,
+				7CA1413C1C964AE000E88417 /* Info.plist */,
+				7CA1412B1C964AE000E88417 /* Supporting Files */,
+				7CA1415E1C964B0D00E88417 /* FMGodTableView.h */,
+				7CA1415F1C964B0D00E88417 /* FMGodTableView.m */,
+				7CA141611C964B6100E88417 /* FMGodTableViewCell.h */,
+				7CA141621C964B6100E88417 /* FMGodTableViewCell.m */,
+			);
+			path = FMGodTableView;
+			sourceTree = "<group>";
+		};
+		7CA1412B1C964AE000E88417 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CA1412C1C964AE000E88417 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CA141441C964AE000E88417 /* FMGodTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CA141451C964AE000E88417 /* FMGodTableViewTests.m */,
+				7CA141471C964AE000E88417 /* Info.plist */,
+			);
+			path = FMGodTableViewTests;
+			sourceTree = "<group>";
+		};
+		7CA1414F1C964AE000E88417 /* FMGodTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CA141501C964AE000E88417 /* FMGodTableViewUITests.m */,
+				7CA141521C964AE000E88417 /* Info.plist */,
+			);
+			path = FMGodTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CA141271C964AE000E88417 /* FMGodTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA141551C964AE000E88417 /* Build configuration list for PBXNativeTarget "FMGodTableView" */;
+			buildPhases = (
+				7CA141241C964AE000E88417 /* Sources */,
+				7CA141251C964AE000E88417 /* Frameworks */,
+				7CA141261C964AE000E88417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMGodTableView;
+			productName = FMGodTableView;
+			productReference = 7CA141281C964AE000E88417 /* FMGodTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CA141401C964AE000E88417 /* FMGodTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA141581C964AE000E88417 /* Build configuration list for PBXNativeTarget "FMGodTableViewTests" */;
+			buildPhases = (
+				7CA1413D1C964AE000E88417 /* Sources */,
+				7CA1413E1C964AE000E88417 /* Frameworks */,
+				7CA1413F1C964AE000E88417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA141431C964AE000E88417 /* PBXTargetDependency */,
+			);
+			name = FMGodTableViewTests;
+			productName = FMGodTableViewTests;
+			productReference = 7CA141411C964AE000E88417 /* FMGodTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CA1414B1C964AE000E88417 /* FMGodTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA1415B1C964AE000E88417 /* Build configuration list for PBXNativeTarget "FMGodTableViewUITests" */;
+			buildPhases = (
+				7CA141481C964AE000E88417 /* Sources */,
+				7CA141491C964AE000E88417 /* Frameworks */,
+				7CA1414A1C964AE000E88417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA1414E1C964AE000E88417 /* PBXTargetDependency */,
+			);
+			name = FMGodTableViewUITests;
+			productName = FMGodTableViewUITests;
+			productReference = 7CA1414C1C964AE000E88417 /* FMGodTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CA141201C964ADF00E88417 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dangfm;
+				TargetAttributes = {
+					7CA141271C964AE000E88417 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7CA141401C964AE000E88417 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7CA141271C964AE000E88417;
+					};
+					7CA1414B1C964AE000E88417 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7CA141271C964AE000E88417;
+					};
+				};
+			};
+			buildConfigurationList = 7CA141231C964ADF00E88417 /* Build configuration list for PBXProject "FMGodTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CA1411F1C964ADF00E88417;
+			productRefGroup = 7CA141291C964AE000E88417 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CA141271C964AE000E88417 /* FMGodTableView */,
+				7CA141401C964AE000E88417 /* FMGodTableViewTests */,
+				7CA1414B1C964AE000E88417 /* FMGodTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CA141261C964AE000E88417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA141381C964AE000E88417 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA1413F1C964AE000E88417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA1414A1C964AE000E88417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CA141241C964AE000E88417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA141331C964AE000E88417 /* ViewController.m in Sources */,
+				7CA141631C964B6100E88417 /* FMGodTableViewCell.m in Sources */,
+				7CA141301C964AE000E88417 /* AppDelegate.m in Sources */,
+				7CA1412D1C964AE000E88417 /* main.m in Sources */,
+				7CA141601C964B0D00E88417 /* FMGodTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA1413D1C964AE000E88417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA141461C964AE000E88417 /* FMGodTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA141481C964AE000E88417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA141511C964AE000E88417 /* FMGodTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CA141431C964AE000E88417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA141271C964AE000E88417 /* FMGodTableView */;
+			targetProxy = 7CA141421C964AE000E88417 /* PBXContainerItemProxy */;
+		};
+		7CA1414E1C964AE000E88417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA141271C964AE000E88417 /* FMGodTableView */;
+			targetProxy = 7CA1414D1C964AE000E88417 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7CA141531C964AE000E88417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CA141541C964AE000E88417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CA141561C964AE000E88417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMGodTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.golden.FMGodTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CA141571C964AE000E88417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMGodTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.golden.FMGodTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CA141591C964AE000E88417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMGodTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.golden.FMGodTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMGodTableView.app/FMGodTableView";
+			};
+			name = Debug;
+		};
+		7CA1415A1C964AE000E88417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMGodTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.golden.FMGodTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMGodTableView.app/FMGodTableView";
+			};
+			name = Release;
+		};
+		7CA1415C1C964AE000E88417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FMGodTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.golden.FMGodTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMGodTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7CA1415D1C964AE000E88417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FMGodTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.golden.FMGodTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMGodTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CA141231C964ADF00E88417 /* Build configuration list for PBXProject "FMGodTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA141531C964AE000E88417 /* Debug */,
+				7CA141541C964AE000E88417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA141551C964AE000E88417 /* Build configuration list for PBXNativeTarget "FMGodTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA141561C964AE000E88417 /* Debug */,
+				7CA141571C964AE000E88417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CA141581C964AE000E88417 /* Build configuration list for PBXNativeTarget "FMGodTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA141591C964AE000E88417 /* Debug */,
+				7CA1415A1C964AE000E88417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CA1415B1C964AE000E88417 /* Build configuration list for PBXNativeTarget "FMGodTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA1415C1C964AE000E88417 /* Debug */,
+				7CA1415D1C964AE000E88417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CA141201C964ADF00E88417 /* Project object */;
+}
