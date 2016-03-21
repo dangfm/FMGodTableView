@@ -47,6 +47,7 @@
     // 注册一个
     extern NSString *GodCellScrollNotification;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(scrollMove:) name:GodCellScrollNotification object:nil];
+    
 }
 
 
@@ -64,7 +65,8 @@
 }
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    
+    // 发送通知
+    [[NSNotificationCenter defaultCenter] postNotificationName:GodCellScrollNotification object:self userInfo:@{@"x":@(_CellLastScrollX)}];
 }
 
 -(void)scrollMove:(NSNotification*)notification{

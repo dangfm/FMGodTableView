@@ -33,23 +33,27 @@
 }
 
 -(void)createViews{
-    _mainView = [[UIScrollView alloc] initWithFrame:self.bounds];
-    _mainView.contentSize = CGSizeMake(4*_mainView.frame.size.width, 0);
+    CGRect screen = [UIScreen mainScreen].bounds;
+    _mainView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, screen.size.width, self.bounds.size.height)];
+    _mainView.contentSize = CGSizeMake(4*_mainView.frame.size.width, self.bounds.size.height);
     _mainView.delegate = self;
-    _mainView.directionalLockEnabled = YES;
+    //_mainView.directionalLockEnabled = YES;
     [self.contentView addSubview:_mainView];
-    NSArray * strings = @[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"0"];
-    float w = _mainView.contentSize.width / strings.count;
-    float x = 0;
-    for (NSString *str in strings) {
+    NSArray * strings = @[@"左边标题",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"0"];
+    float w = _mainView.contentSize.width / (strings.count);
+    float x = _mainView.contentSize.width-w;
+    for (int i=(int)strings.count-1;i>=0;i--) {
+        NSString *str = strings[i];
         UILabel *l = [[UILabel alloc] initWithFrame:CGRectMake(x, 0, w, self.bounds.size.height)];
         [_mainView addSubview:l];
+        l.layer.borderColor = [UIColor colorWithRed:0.01 green:0.01 blue:0.01 alpha:0.3].CGColor;
+        l.layer.borderWidth = 0.5;
+        l.backgroundColor = [UIColor whiteColor];
         l.text = str;
         l.textAlignment = NSTextAlignmentCenter;
         l = nil;
-        x += w;
+        x -= w;
     }
-    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(scrollMove:) name:GodCellScrollNotification object:nil];
 }
 
@@ -73,10 +77,11 @@
     }
     
     NSArray *views = scrollView.subviews;
-    UIView *first = views.firstObject;
+    UIView *first = views.lastObject;
     CGRect frame = first.frame;
     frame.origin.x = scrollView.contentOffset.x;
     first.frame = frame;
+    //[scrollView bringSubviewToFront:first];
     _isNotification = NO;
 }
 
